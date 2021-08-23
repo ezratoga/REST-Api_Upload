@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 
 global.__basedir = __dirname;
-console.log(__basedir)
 
 var corsOptions = {
   origin: "http://localhost:5001"
